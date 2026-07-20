@@ -1,0 +1,6 @@
+{
+  "name": "Ignite Fitness",
+  "description": "A premium, high-contrast, minimalist fitness landing page for Ignite Fitness with interactive member onboarding, class schedulers, and smooth scroll animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
