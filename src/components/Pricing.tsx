@@ -118,7 +118,7 @@ export default function Pricing({ onPlanSelect }: PricingProps) {
 
         {/* Guarantee Info Footnote */}
         <div className="mt-12 text-center max-w-md mx-auto p-3.5 rounded-xl bg-neutral-950/50 border border-neutral-800 text-xs text-neutral-400">
-          💡 <strong>Guaranteed Satisfaction</strong>: Need help choosing a plan? Visit us at 2nd Floor, SP Laxmi Heights, PB Rd, Hubballi or call <strong>081979 17330</strong>.
+          💡 <strong>Guaranteed Satisfaction</strong>: Need help choosing a plan? Visit us at 2nd Floor, SP Laxmi Heights, PB Rd, Dharwad or call <strong>081979 17330</strong>.
         </div>
       </div>
     </section>

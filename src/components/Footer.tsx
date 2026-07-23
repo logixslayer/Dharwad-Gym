@@ -36,7 +36,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-xs text-neutral-400 max-w-sm leading-relaxed">
-              Ignite Fitness offers state-of-the-art cardio and strength training equipment, expert personal trainers, and personalized fitness programs in Hubballi.
+              Ignite Fitness offers state-of-the-art cardio and strength training equipment, expert personal trainers, and personalized fitness programs in Dharwad.
             </p>
 
             {/* Interactive Quote Widget */}
@@ -69,7 +69,7 @@ export default function Footer() {
                 <span className="text-neutral-300 leading-relaxed">
                   2nd Floor, SP Laxmi Heights, PB Rd, <br />
                   near NTTF BRTS bus stop, Shanti Nagar, <br />
-                  Malmaddi, Hubballi, Karnataka 580001
+                  Malmaddi, Dharwad, Karnataka 580001
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
@@ -98,7 +98,7 @@ export default function Footer() {
                 <span className="text-[#FF4D00] font-bold">4.9 ★ (180+ Votes)</span>
               </div>
               <div className="text-[10px] text-neutral-500 pt-1">
-                Near NTTF BRTS bus stop, Hubballi
+                Near NTTF BRTS bus stop, Dharwad
               </div>
             </div>
           </div>

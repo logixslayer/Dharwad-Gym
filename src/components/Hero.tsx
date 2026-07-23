@@ -39,7 +39,7 @@ export default function Hero({ onJoinClick, isRegistered, onOpenPass }: HeroProp
           id="hero-badge"
         >
           <span className="w-2 h-2 rounded-full bg-[#FF4D00] animate-pulse" />
-          PREMIER FITNESS CENTER IN HUBBALLI
+          PREMIER FITNESS CENTER IN DHARWAD
         </motion.div>
 
         {/* Hero Title */}
@@ -112,29 +112,29 @@ export default function Hero({ onJoinClick, isRegistered, onOpenPass }: HeroProp
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.8 }}
-          className="mt-16 grid grid-cols-3 gap-4 sm:gap-8 py-5 px-6 bg-neutral-900/60 border border-neutral-800 rounded-2xl max-w-2xl w-full"
+          className="mt-12 sm:mt-16 grid grid-cols-3 gap-1 sm:gap-8 py-3.5 sm:py-5 px-2 sm:px-6 bg-neutral-900/80 backdrop-blur-md border border-neutral-800 rounded-xl sm:rounded-2xl max-w-2xl w-full"
           id="hero-stats"
         >
-          <div className="flex flex-col items-center">
-            <div className="flex items-center gap-1 text-white font-bold text-lg sm:text-xl">
-              <Trophy className="w-4 h-4 text-[#FF4D00]" />
+          <div className="flex flex-col items-center justify-center px-1">
+            <div className="flex items-center gap-1 text-white font-bold text-xs sm:text-xl whitespace-nowrap">
+              <Trophy className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#FF4D00] shrink-0" />
               4.9 / 5
             </div>
-            <div className="text-neutral-400 text-[10px] sm:text-xs uppercase tracking-wider mt-0.5">180+ Reviews</div>
+            <div className="text-neutral-400 text-[9px] sm:text-xs uppercase tracking-wider mt-0.5 whitespace-nowrap">180+ Reviews</div>
           </div>
-          <div className="flex flex-col items-center border-l border-r border-neutral-800">
-            <div className="flex items-center gap-1 text-white font-bold text-lg sm:text-xl">
-              <Users className="w-4 h-4 text-[#FF4D00]" />
-              Hubballi
+          <div className="flex flex-col items-center justify-center px-1 border-l border-r border-neutral-800">
+            <div className="flex items-center gap-1 text-white font-bold text-xs sm:text-xl whitespace-nowrap">
+              <Users className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#FF4D00] shrink-0" />
+              Dharwad
             </div>
-            <div className="text-neutral-400 text-[10px] sm:text-xs uppercase tracking-wider mt-0.5">PB Road</div>
+            <div className="text-neutral-400 text-[9px] sm:text-xs uppercase tracking-wider mt-0.5 whitespace-nowrap">PB Road</div>
           </div>
-          <div className="flex flex-col items-center">
-            <div className="flex items-center gap-1 text-white font-bold text-lg sm:text-xl">
-              <Zap className="w-4 h-4 text-[#FF4D00]" />
+          <div className="flex flex-col items-center justify-center px-1">
+            <div className="flex items-center gap-1 text-white font-bold text-xs sm:text-xl whitespace-nowrap">
+              <Zap className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#FF4D00] shrink-0" />
               Till 11 PM
             </div>
-            <div className="text-neutral-400 text-[10px] sm:text-xs uppercase tracking-wider mt-0.5">Open Daily</div>
+            <div className="text-neutral-400 text-[9px] sm:text-xs uppercase tracking-wider mt-0.5 whitespace-nowrap">Open Daily</div>
           </div>
         </motion.div>
       </div>

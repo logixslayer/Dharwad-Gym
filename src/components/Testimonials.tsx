@@ -21,7 +21,7 @@ export default function Testimonials() {
             </h2>
           </div>
           <p className="max-w-md text-neutral-400 text-sm leading-relaxed">
-            Real Google & Justdial reviews (4.9/5 ⭐) from our active members in Hubballi.
+            Real Google & Justdial reviews (4.9/5 ⭐) from our active members in Dharwad.
           </p>
         </div>
 

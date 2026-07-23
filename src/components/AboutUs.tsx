@@ -15,7 +15,7 @@ export default function AboutUs() {
       id: 0,
       num: '01',
       title: '15+ Years of Gym Experience',
-      content: 'Ignite Fitness was established with a mission to deliver top-tier fitness training in Hubballi. Our years of experience ensure effective, safe, and structured workout guidance for every member.'
+      content: 'Ignite Fitness was established with a mission to deliver top-tier fitness training in Dharwad. Our years of experience ensure effective, safe, and structured workout guidance for every member.'
     },
     {
       id: 1,
@@ -133,7 +133,7 @@ export default function AboutUs() {
                 15+ YEARS OF EXCELLENCE IN <span className="text-[#FF4D00]">FITNESS</span>
               </h2>
               <p className="text-neutral-300 text-sm leading-relaxed">
-                At Ignite Fitness Hubballi, we provide certified personal trainers, state-of-the-art equipment, and customized workout guidance tailored to your health and fitness goals. Whether you want to build muscle, lose weight, or improve endurance, we are here to guide you every step of the way.
+                At Ignite Fitness Dharwad, we provide certified personal trainers, state-of-the-art equipment, and customized workout guidance tailored to your health and fitness goals. Whether you want to build muscle, lose weight, or improve endurance, we are here to guide you every step of the way.
               </p>
             </div>
 
