@@ -35,11 +35,11 @@ export default function Hero({ onJoinClick, isRegistered, onOpenPass }: HeroProp
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
-          className="inline-flex items-center gap-2 px-4 py-1.5 border border-[#FF4D00]/30 bg-[#FF4D00]/5 text-[#FF4D00] text-[10px] font-bold uppercase tracking-[0.2em] mb-8 font-mono"
+          className="inline-flex items-center gap-2 px-4 py-1.5 border border-[#FF4D00]/30 bg-[#FF4D00]/10 text-[#FF4D00] text-xs font-bold uppercase tracking-widest mb-6 rounded-full font-sans"
           id="hero-badge"
         >
           <span className="w-2 h-2 rounded-full bg-[#FF4D00] animate-pulse" />
-          THE ULTIMATE TRAINING SANCTUARY
+          PREMIER FITNESS CENTER IN HUBBALLI
         </motion.div>
 
         {/* Hero Title */}
@@ -50,11 +50,8 @@ export default function Hero({ onJoinClick, isRegistered, onOpenPass }: HeroProp
           className="relative mb-6 text-center flex flex-col items-center select-none"
           id="hero-heading"
         >
-          <h1 className="text-5xl sm:text-7xl md:text-[90px] xl:text-[140px] font-black leading-[0.8] tracking-tighter uppercase mb-0 text-white">
-            IGNITE THE
-          </h1>
-          <h1 className="text-5xl sm:text-7xl md:text-[90px] xl:text-[140px] font-black leading-[0.8] tracking-tighter uppercase outline-text-orange italic -mt-2 sm:-mt-4">
-            FIRE WITHIN
+          <h1 className="text-4xl sm:text-6xl md:text-8xl xl:text-9xl font-black leading-[0.9] tracking-tight uppercase text-white">
+            IGNITE <span className="text-[#FF4D00]">FITNESS</span>
           </h1>
         </motion.div>
 
@@ -63,10 +60,10 @@ export default function Hero({ onJoinClick, isRegistered, onOpenPass }: HeroProp
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="max-w-2xl text-neutral-400 text-base sm:text-xl font-normal tracking-wide leading-relaxed mb-12"
+          className="max-w-xl text-neutral-300 text-sm sm:text-base font-normal leading-relaxed mb-10"
           id="hero-subheading"
         >
-          No fluff. No shortcuts. Just premium high-contrast architecture, advanced performance equipment, and world-class protocols designed for those who refuse to settle.
+          State-of-the-art cardio and strength training equipment, expert personal trainers, and flexible plans designed to achieve your health goals.
         </motion.p>
 
         {/* CTA Button Block */}
@@ -81,23 +78,19 @@ export default function Hero({ onJoinClick, isRegistered, onOpenPass }: HeroProp
             <button
               onClick={onOpenPass}
               id="hero-btn-registered"
-              className="w-full sm:w-auto px-10 py-5 rounded-none border border-[#FF4D00]/50 bg-[#FF4D00]/10 text-[#FF4D00] font-black uppercase tracking-tighter text-sm hover:bg-[#FF4D00] hover:text-black transition-all duration-350 cursor-pointer skew-x-[-10deg] flex items-center justify-center gap-2"
+              className="w-full sm:w-auto px-8 py-4 rounded-xl border border-[#FF4D00] bg-[#FF4D00] text-black font-extrabold uppercase tracking-wider text-xs hover:bg-[#FF4D00]/90 transition-all cursor-pointer flex items-center justify-center gap-2"
             >
-              <span className="inline-block skew-x-[10deg] flex items-center gap-2">
-                Access Member Dashboard
-                <ArrowRight className="w-5 h-5" />
-              </span>
+              <span>View Access Pass</span>
+              <ArrowRight className="w-4 h-4" />
             </button>
           ) : (
             <button
               onClick={onJoinClick}
               id="hero-btn-join"
-              className="w-full sm:w-auto px-10 py-5 rounded-none bg-[#FF4D00] text-black font-black uppercase tracking-tighter text-sm hover:scale-105 transition-all duration-300 cursor-pointer skew-x-[-10deg] flex items-center justify-center gap-3 hover:shadow-[0_0_35px_rgba(255,77,0,0.4)]"
+              className="w-full sm:w-auto px-8 py-4 rounded-xl bg-[#FF4D00] text-black font-extrabold uppercase tracking-wider text-xs hover:scale-105 transition-all cursor-pointer flex items-center justify-center gap-2 hover:shadow-[0_0_25px_rgba(255,77,0,0.4)]"
             >
-              <span className="inline-block skew-x-[10deg] flex items-center gap-3">
-                Begin Your Onboarding
-                <ArrowRight className="w-5 h-5" />
-              </span>
+              <span>Get Gym Pass</span>
+              <ArrowRight className="w-4 h-4" />
             </button>
           )}
 
@@ -108,40 +101,40 @@ export default function Hero({ onJoinClick, isRegistered, onOpenPass }: HeroProp
               document.getElementById('programs')?.scrollIntoView({ behavior: 'smooth' });
             }}
             id="hero-btn-explore"
-            className="w-full sm:w-auto px-10 py-5 rounded-none border border-white/20 bg-transparent text-white font-black uppercase tracking-tighter text-sm hover:bg-white hover:text-black transition-all duration-300 cursor-pointer skew-x-[-10deg] flex items-center justify-center"
+            className="w-full sm:w-auto px-8 py-4 rounded-xl border border-neutral-700 bg-neutral-900/80 text-white font-extrabold uppercase tracking-wider text-xs hover:bg-neutral-800 transition-all cursor-pointer flex items-center justify-center"
           >
-            <span className="inline-block skew-x-[10deg]">Explore Programs</span>
+            <span>Explore Services</span>
           </a>
         </motion.div>
 
-        {/* Dynamic Trust Badges / Stats (Motivate Vibes) */}
+        {/* Dynamic Trust Badges / Stats */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1 }}
-          className="mt-20 grid grid-cols-3 gap-6 sm:gap-12 py-6 border-t border-b border-neutral-900/60 max-w-3xl w-full"
+          transition={{ duration: 1, delay: 0.8 }}
+          className="mt-16 grid grid-cols-3 gap-4 sm:gap-8 py-5 px-6 bg-neutral-900/60 border border-neutral-800 rounded-2xl max-w-2xl w-full"
           id="hero-stats"
         >
           <div className="flex flex-col items-center">
-            <div className="flex items-center gap-1.5 text-white font-black text-xl sm:text-3xl font-sans tracking-tight">
-              <Users className="w-4 h-4 sm:w-5 sm:h-5 text-orange-500" />
-              1,800+
+            <div className="flex items-center gap-1 text-white font-bold text-lg sm:text-xl">
+              <Trophy className="w-4 h-4 text-[#FF4D00]" />
+              4.9 / 5
             </div>
-            <div className="text-neutral-500 text-[10px] sm:text-xs uppercase tracking-widest mt-1 font-medium">Active Members</div>
+            <div className="text-neutral-400 text-[10px] sm:text-xs uppercase tracking-wider mt-0.5">180+ Reviews</div>
           </div>
-          <div className="flex flex-col items-center border-l border-r border-neutral-900/60">
-            <div className="flex items-center gap-1.5 text-white font-black text-xl sm:text-3xl font-sans tracking-tight">
-              <Trophy className="w-4 h-4 sm:w-5 sm:h-5 text-amber-500" />
-              12+
+          <div className="flex flex-col items-center border-l border-r border-neutral-800">
+            <div className="flex items-center gap-1 text-white font-bold text-lg sm:text-xl">
+              <Users className="w-4 h-4 text-[#FF4D00]" />
+              Hubballi
             </div>
-            <div className="text-neutral-500 text-[10px] sm:text-xs uppercase tracking-widest mt-1 font-medium">Elite Coaches</div>
+            <div className="text-neutral-400 text-[10px] sm:text-xs uppercase tracking-wider mt-0.5">PB Road</div>
           </div>
           <div className="flex flex-col items-center">
-            <div className="flex items-center gap-1.5 text-white font-black text-xl sm:text-3xl font-sans tracking-tight">
-              <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-red-500" />
-              24/7
+            <div className="flex items-center gap-1 text-white font-bold text-lg sm:text-xl">
+              <Zap className="w-4 h-4 text-[#FF4D00]" />
+              Till 11 PM
             </div>
-            <div className="text-neutral-500 text-[10px] sm:text-xs uppercase tracking-widest mt-1 font-medium">Access Facility</div>
+            <div className="text-neutral-400 text-[10px] sm:text-xs uppercase tracking-wider mt-0.5">Open Daily</div>
           </div>
         </motion.div>
       </div>

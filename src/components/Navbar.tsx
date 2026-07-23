@@ -55,15 +55,22 @@ export default function Navbar({ onJoinClick, isRegistered, onOpenPass }: Navbar
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8 text-xs uppercase tracking-[0.2em] font-sans font-bold text-neutral-400">
-            {['about', 'programs', 'schedule', 'metrics', 'pricing', 'testimonials'].map((section) => (
+          <div className="hidden md:flex items-center gap-7 text-xs uppercase tracking-[0.15em] font-sans font-bold text-neutral-300">
+            {[
+              { id: 'about', label: 'About' },
+              { id: 'programs', label: 'Services' },
+              { id: 'trainers', label: 'Trainers' },
+              { id: 'metrics', label: 'Calculator' },
+              { id: 'pricing', label: 'Pricing' },
+              { id: 'testimonials', label: 'Reviews' }
+            ].map((item) => (
               <button
-                key={section}
-                onClick={() => scrollToSection(section)}
-                className="hover:text-white transition-colors duration-300 relative py-1 cursor-pointer group"
-                id={`nav-link-${section}`}
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className="hover:text-[#FF4D00] transition-colors duration-200 relative py-1 cursor-pointer group"
+                id={`nav-link-${item.id}`}
               >
-                {section}
+                {item.label}
                 <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FF4D00] transition-all duration-300 group-hover:w-full" />
               </button>
             ))}
@@ -116,18 +123,25 @@ export default function Navbar({ onJoinClick, isRegistered, onOpenPass }: Navbar
             className="fixed inset-0 top-[72px] z-40 bg-neutral-950/95 backdrop-blur-2xl border-b border-neutral-900 md:hidden flex flex-col justify-between p-8"
             id="nav-mobile-menu"
           >
-            <div className="flex flex-col gap-6 text-lg uppercase tracking-[0.2em] font-sans text-neutral-300">
-              {['about', 'programs', 'schedule', 'metrics', 'pricing', 'testimonials'].map((section, idx) => (
+            <div className="flex flex-col gap-5 text-base uppercase tracking-widest font-sans font-bold text-neutral-300">
+              {[
+                { id: 'about', label: 'About Us' },
+                { id: 'programs', label: 'Our Services' },
+                { id: 'trainers', label: 'Key Trainers' },
+                { id: 'metrics', label: 'Fitness Calculator' },
+                { id: 'pricing', label: 'Membership Plans' },
+                { id: 'testimonials', label: 'Reviews' }
+              ].map((item, idx) => (
                 <motion.button
-                  key={section}
+                  key={item.id}
                   initial={{ opacity: 0, x: -10 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: idx * 0.05 }}
-                  onClick={() => scrollToSection(section)}
-                  className="text-left py-2 border-b border-neutral-900 hover:text-white transition-colors duration-300"
-                  id={`nav-mobile-link-${section}`}
+                  onClick={() => scrollToSection(item.id)}
+                  className="text-left py-2 border-b border-neutral-900 hover:text-[#FF4D00] transition-colors"
+                  id={`nav-mobile-link-${item.id}`}
                 >
-                  {section}
+                  {item.label}
                 </motion.button>
               ))}
             </div>

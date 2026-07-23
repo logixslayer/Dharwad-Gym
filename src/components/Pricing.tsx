@@ -14,19 +14,18 @@ export default function Pricing({ onPlanSelect }: PricingProps) {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Header Block */}
-        <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-16 gap-6">
+        <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-12 gap-6">
           <div>
-            <div className="flex items-center gap-2 mb-3">
+            <div className="flex items-center gap-2 mb-2">
               <span className="w-1.5 h-1.5 rounded-full bg-[#FF4D00]" />
-              <span className="text-xs uppercase tracking-[0.3em] font-extrabold text-[#FF4D00]">Premium Packages</span>
+              <span className="text-xs uppercase tracking-widest font-extrabold text-[#FF4D00]">Flexible Options</span>
             </div>
-            <h2 className="text-3xl sm:text-5xl font-black font-sans uppercase tracking-tight text-white">
-              Invest In Your <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF4D00] to-red-650">Physical Capital</span>
+            <h2 className="text-3xl sm:text-4xl font-black font-sans uppercase tracking-tight text-white">
+              Membership <span className="text-[#FF4D00]">Plans</span>
             </h2>
           </div>
-          <p className="max-w-md text-neutral-400 text-sm sm:text-base tracking-wide leading-relaxed">
-            Choose your level of commitment. Transparent monthly plans with zero enrollment fees and instant onboarding card activation.
+          <p className="max-w-md text-neutral-400 text-sm leading-relaxed">
+            Simple, transparent pricing in Indian Rupees with no hidden joining fees. Select your plan and activate your pass instantly.
           </p>
         </div>
 
@@ -118,8 +117,8 @@ export default function Pricing({ onPlanSelect }: PricingProps) {
         </div>
 
         {/* Guarantee Info Footnote */}
-        <div className="mt-16 text-center max-w-lg mx-auto p-4 rounded-none bg-neutral-950/30 border border-neutral-850/50 text-[10px] text-neutral-500">
-          🛡️ <strong>100% Ironclad Guarantee</strong>: If you do not burn, sweat, or find total mental flow within 14 days, you can request an instant full refund on your Spark or Ignite tiers. No questions asked.
+        <div className="mt-12 text-center max-w-md mx-auto p-3.5 rounded-xl bg-neutral-950/50 border border-neutral-800 text-xs text-neutral-400">
+          💡 <strong>Guaranteed Satisfaction</strong>: Need help choosing a plan? Visit us at 2nd Floor, SP Laxmi Heights, PB Rd, Hubballi or call <strong>081979 17330</strong>.
         </div>
       </div>
     </section>

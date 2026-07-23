@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutUs from './components/AboutUs';
 import Features from './components/Features';
-import ClassSchedule from './components/ClassSchedule';
 import FitnessCalculator from './components/FitnessCalculator';
 import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
@@ -77,12 +76,6 @@ export default function App() {
 
         {/* Features / Bento Programs */}
         <Features onJoinClick={handleJoinClick} />
-
-        {/* Class Schedule with booking simulator */}
-        <ClassSchedule
-          onJoinClick={handleJoinClick}
-          isRegistered={!!registeredData}
-        />
 
         {/* Fitness Metrics & Macro Telemetry */}
         <FitnessCalculator />

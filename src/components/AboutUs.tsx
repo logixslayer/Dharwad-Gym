@@ -14,20 +14,20 @@ export default function AboutUs() {
     {
       id: 0,
       num: '01',
-      title: 'More than fifteen years of experience',
-      content: 'Ignite Fitness was forged in 2011 with a vision to build an elite, high-performance training environment. Our fifteen-year lineage guarantees bulletproof coaching methodologies and training protocols designed to unlock your human raw potential.'
+      title: '15+ Years of Gym Experience',
+      content: 'Ignite Fitness was established with a mission to deliver top-tier fitness training in Hubballi. Our years of experience ensure effective, safe, and structured workout guidance for every member.'
     },
     {
       id: 1,
       num: '02',
-      title: 'Authorized certified instructors',
-      content: 'Every coach on our floor holds gold-standard international athletic certifications. We do not hire general reps; our instructors are elite powerlifters, certified metabolic specialists, and active combat trainers.'
+      title: 'Certified & Friendly Trainers',
+      content: 'Our trainers are fully certified experts in weightlifting, cardio conditioning, and nutrition planning. They work directly with you to ensure proper form, motivation, and injury prevention.'
     },
     {
       id: 2,
       num: '03',
-      title: 'Outstanding caliber of work',
-      content: 'We hold our trainers and our members to an uncompromising standard. From our real-time biometric telemetry tracking to meticulously calibrated machinery, every component of Ignite Fitness is engineered for maximum performance output.'
+      title: 'Modern Equipment & Energetic Atmosphere',
+      content: 'We maintain clean, high-performance equipment and a highly motivating environment that inspires you to stay consistent and achieve your personal best.'
     }
   ];
 
@@ -125,16 +125,15 @@ export default function AboutUs() {
           {/* Right: Content & Accordions (7 Columns) */}
           <div className="lg:col-span-7 space-y-8">
             <div>
-              <div className="flex items-center gap-2 mb-3">
+              <div className="flex items-center gap-2 mb-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#FF4D00]" />
-                <span className="text-xs uppercase tracking-[0.3em] font-extrabold text-[#FF4D00]">About Us</span>
+                <span className="text-xs uppercase tracking-widest font-extrabold text-[#FF4D00]">About Ignite Fitness</span>
               </div>
-              <h2 className="text-3xl sm:text-5xl font-black font-sans uppercase tracking-tight text-white mb-6">
-                WE HAVE A GREAT DEAL OF <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF4D00] to-red-650">EXPERIENCE WITH FITNESS</span>
+              <h2 className="text-3xl sm:text-4xl font-black font-sans uppercase tracking-tight text-white mb-4">
+                15+ YEARS OF EXCELLENCE IN <span className="text-[#FF4D00]">FITNESS</span>
               </h2>
-              <p className="text-neutral-400 text-sm sm:text-base leading-relaxed tracking-wide">
-                We design specialized athletic regimens and high-intensity pathways created by personal, certified coaches to target individual biometrics. Whether you are aiming for structural powerlifting depth, metabolic conditioning, or functional mobility rehabilitation, Ignite provides the uncompromising arena.
+              <p className="text-neutral-300 text-sm leading-relaxed">
+                At Ignite Fitness Hubballi, we provide certified personal trainers, state-of-the-art equipment, and customized workout guidance tailored to your health and fitness goals. Whether you want to build muscle, lose weight, or improve endurance, we are here to guide you every step of the way.
               </p>
             </div>
 

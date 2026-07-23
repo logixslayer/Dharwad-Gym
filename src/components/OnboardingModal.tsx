@@ -37,7 +37,7 @@ export default function OnboardingModal({
 }: OnboardingModalProps) {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState<OnboardingData>({
-    planId: 'ignite',
+    planId: '1month',
     fullName: '',
     email: '',
     phone: '',
@@ -62,7 +62,7 @@ export default function OnboardingModal({
         setStep(1);
         setErrorMsg('');
         setFormData({
-          planId: preselectedPlanId || 'ignite',
+          planId: preselectedPlanId || '1month',
           fullName: '',
           email: '',
           phone: '',
@@ -166,7 +166,7 @@ export default function OnboardingModal({
               <div className="text-xs uppercase tracking-widest text-orange-500 font-bold">Onboarding Process</div>
               <div className="space-y-4">
                 {[
-                  { stepNum: 1, label: 'Select Your Plan', desc: 'Spark, Ignite Elite, or Supernova' },
+                  { stepNum: 1, label: 'Select Your Plan', desc: '1 month, 3 months, or 1 year' },
                   { stepNum: 2, label: 'Customize Your Goals', desc: 'Define your training target' },
                   { stepNum: 3, label: 'Secure Member Profile', desc: 'Your personalized access pass' }
                 ].map((s) => {

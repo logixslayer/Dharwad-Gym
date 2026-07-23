@@ -35,8 +35,8 @@ export default function Footer() {
                 IGNITE FITNESS<span className="text-[#FF4D00] font-extrabold">.</span>
               </span>
             </div>
-            <p className="text-xs text-neutral-500 max-w-sm leading-relaxed">
-              We reject mediocrity. Ignite Fitness is a specialized, dark-themed high-contrast facility engineered to optimize athletic capability and nervous system focus.
+            <p className="text-xs text-neutral-400 max-w-sm leading-relaxed">
+              Ignite Fitness offers state-of-the-art cardio and strength training equipment, expert personal trainers, and personalized fitness programs in Hubballi.
             </p>
 
             {/* Interactive Quote Widget */}
@@ -61,23 +61,24 @@ export default function Footer() {
           {/* Contact Details (Column Span 4) */}
           <div className="md:col-span-4 space-y-5">
             <h4 className="text-xs font-black uppercase text-white tracking-widest">
-              FACILITY HEADQUARTERS
+              GYM LOCATION & CONTACT
             </h4>
             <ul className="space-y-4 text-xs">
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#FF4D00] shrink-0 mt-0.5" />
-                <span>
-                  808 Kinetic Way, Platform 4, <br />
-                  <span className="text-neutral-500">Silicon Slopes, UT 84043</span>
+                <span className="text-neutral-300 leading-relaxed">
+                  2nd Floor, SP Laxmi Heights, PB Rd, <br />
+                  near NTTF BRTS bus stop, Shanti Nagar, <br />
+                  Malmaddi, Hubballi, Karnataka 580001
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#FF4D00] shrink-0" />
-                <span>+1 (800) 555-FIRE (3473)</span>
+                <span className="text-neutral-300 font-mono font-bold">081979 17330</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#FF4D00] shrink-0" />
-                <span>hq@ignitefitness.club</span>
+                <span className="text-neutral-300">contact@ignitefitness.in</span>
               </li>
             </ul>
           </div>
@@ -85,20 +86,19 @@ export default function Footer() {
           {/* Operational Hours (Column Span 3) */}
           <div className="md:col-span-3 space-y-4">
             <h4 className="text-xs font-black uppercase text-white tracking-widest">
-              OPERATIONAL HOURS
+              OPENING HOURS
             </h4>
             <div className="space-y-2 text-xs">
-              <div className="flex justify-between border-b border-neutral-900 pb-1.5">
-                <span className="text-neutral-500 font-medium">Lifting Floors</span>
-                <span className="text-white font-bold">24 / 7 Unlimited</span>
+              <div className="flex justify-between border-b border-neutral-900 pb-2">
+                <span className="text-neutral-400 font-medium">Daily Schedule</span>
+                <span className="text-white font-bold">Open · Closes 11 pm</span>
               </div>
-              <div className="flex justify-between border-b border-neutral-900 pb-1.5">
-                <span className="text-neutral-500 font-medium">Coaching Staff</span>
-                <span className="text-neutral-300">06:00 AM - 09:00 PM</span>
+              <div className="flex justify-between border-b border-neutral-900 pb-2">
+                <span className="text-neutral-400 font-medium">Rating</span>
+                <span className="text-[#FF4D00] font-bold">4.9 ★ (180+ Votes)</span>
               </div>
-              <div className="flex justify-between pb-1.5">
-                <span className="text-neutral-500 font-medium">Recovery Zone</span>
-                <span className="text-neutral-300">05:00 AM - Midnight</span>
+              <div className="text-[10px] text-neutral-500 pt-1">
+                Near NTTF BRTS bus stop, Hubballi
               </div>
             </div>
           </div>

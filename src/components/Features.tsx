@@ -80,19 +80,18 @@ export default function Features({ onJoinClick }: FeaturesProps) {
 
       <div className="max-w-7xl mx-auto px-6">
         {/* Header Block */}
-        <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-16 gap-6">
+        <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-12 gap-6">
           <div>
-            <div className="flex items-center gap-2 mb-3">
+            <div className="flex items-center gap-2 mb-2">
               <span className="w-1.5 h-1.5 rounded-full bg-[#FF4D00]" />
-              <span className="text-xs uppercase tracking-[0.3em] font-extrabold text-[#FF4D00]">Elite Curriculum</span>
+              <span className="text-xs uppercase tracking-widest font-extrabold text-[#FF4D00]">What We Offer</span>
             </div>
-            <h2 className="text-3xl sm:text-5xl font-black font-sans uppercase tracking-tight text-white">
-              Shatter Your <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF4D00] to-red-600">Static Threshold</span>
+            <h2 className="text-3xl sm:text-4xl font-black font-sans uppercase tracking-tight text-white">
+              Our Fitness <span className="text-[#FF4D00]">Services</span>
             </h2>
           </div>
-          <p className="max-w-md text-neutral-400 text-sm sm:text-base tracking-wide leading-relaxed">
-            Our training methodologies aren't built on standard gym routines. We combine physical overload with high-contrast, clean architecture to forge pure drive.
+          <p className="max-w-md text-neutral-400 text-sm leading-relaxed">
+            Our Fitness Center offers a comprehensive range of services designed to support all your health and fitness goals. We have state-of-the-art cardio and strength equipment.
           </p>
         </div>
 

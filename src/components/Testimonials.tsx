@@ -10,19 +10,18 @@ export default function Testimonials() {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Header Block */}
-        <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-16 gap-6">
+        <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-12 gap-6">
           <div>
-            <div className="flex items-center gap-2 mb-3">
+            <div className="flex items-center gap-2 mb-2">
               <span className="w-1.5 h-1.5 rounded-full bg-[#FF4D00]" />
-              <span className="text-xs uppercase tracking-[0.3em] font-extrabold text-[#FF4D00]">Transformed Lives</span>
+              <span className="text-xs uppercase tracking-widest font-extrabold text-[#FF4D00]">Member Reviews</span>
             </div>
-            <h2 className="text-3xl sm:text-5xl font-black font-sans uppercase tracking-tight text-white">
-              The Path Of <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF4D00] to-red-650">Iron Discipline</span>
+            <h2 className="text-3xl sm:text-4xl font-black font-sans uppercase tracking-tight text-white">
+              What Our <span className="text-[#FF4D00]">Members Say</span>
             </h2>
           </div>
-          <p className="max-w-md text-neutral-400 text-sm sm:text-base tracking-wide leading-relaxed">
-            Real feedback from members who stepped into our dark-mode facility and chose to redefine their limitations.
+          <p className="max-w-md text-neutral-400 text-sm leading-relaxed">
+            Real Google & Justdial reviews (4.9/5 ⭐) from our active members in Hubballi.
           </p>
         </div>
 
